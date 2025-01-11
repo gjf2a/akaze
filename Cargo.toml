@@ -2,7 +2,7 @@
 name = "akaze"
 version = "0.7.0"
 authors = ["Geordon Worley <vadixidav@gmail.com>"]
-edition = "2018"
+edition = "2021"
 description = "AKAZE feature extraction algorithm for computer vision"
 keywords = ["keypoint", "descriptor", "vision", "sfm", "slam"]
 categories = ["computer-vision", "science::robotics"]
@@ -16,7 +16,7 @@ cv-core = "0.15.0"
 image = { version = "0.25.5", default-features = false }
 log = { version = "0.4.8", default-features = false }
 primal = { version = "0.3.0", default-features = false }
-derive_more = { version = "0.99.8", default-features = false }
+derive_more = { version = "1.0.0", features = ["full"] }
 nshare = { version = "0.10.0", features = ["ndarray", "image"] }
 ndarray = { version = "0.16.1", default-features = false }
 float-ord = { version = "0.3.2", default-features = false }
